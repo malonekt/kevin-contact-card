@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Malone;Kevin;Thomas;Dr.;M.D.
+FN:Kevin Malone, M.D.
+TITLE:Emergency Medicine · Clinical Informatics
+TEL;TYPE=CELL,VOICE:+13374229085
+EMAIL;TYPE=INTERNET:contact@kevinmalone.org
+URL:https://kevinmalone.org
+ADR;TYPE=WORK:;;;Temple;TX;;USA
+END:VCARD
