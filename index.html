@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kevin Malone, M.D.</title>
+<meta name="description" content="Contact Kevin Malone, M.D. — Emergency Medicine and Clinical Informatics.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Lato:wght@400;700&display=swap">
+<style>
+  :root{
+    --ink:#1C2433; --ink-2:#5B6676; --ink-3:#8A93A1;
+    --paper:#FFFFFF; --ground:#EFEDE6; --line:#D9D4C8;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--ground)}
+  body{
+    min-height:100vh; display:flex; align-items:flex-start; justify-content:center;
+    padding:24px 16px 48px; font-family:'Lato',system-ui,sans-serif; color:var(--ink);
+    background:radial-gradient(1200px 700px at 50% -10%, #F7F5EF 0%, var(--ground) 60%);
+  }
+  .card{
+    width:100%; max-width:440px; background:var(--paper); border:1.5px solid var(--ink);
+    border-radius:20px; padding:44px 28px 36px; text-align:center;
+    box-shadow:0 18px 50px rgba(28,36,51,.10);
+  }
+  h1{
+    font-family:'Cormorant Garamond',Georgia,serif; font-weight:600; font-size:42px;
+    line-height:1; letter-spacing:.01em; margin:0;
+  }
+  h1 span{font-weight:500}
+  .rule{width:56px;height:1.5px;background:var(--ink);margin:18px auto 16px}
+  .caps{
+    text-transform:uppercase; letter-spacing:.2em; font-size:12px; font-weight:700; color:var(--ink-2);
+  }
+  .actions{display:flex;flex-direction:column;gap:12px;margin:30px 0 26px}
+  a.row{
+    display:flex; align-items:center; gap:14px; text-decoration:none; color:var(--ink);
+    border:1.5px solid var(--ink); border-radius:14px; padding:14px 16px; text-align:left;
+    background:#FBFAF7; transition:transform .08s ease, background .15s ease;
+  }
+  a.row:active{transform:scale(.985)}
+  a.row:hover{background:#F4F2EC}
+  a.row.primary{background:var(--ink); color:#FFFFFF; border-color:var(--ink)}
+  a.row.primary:hover{background:#273246}
+  .ic{
+    flex:none; width:42px; height:42px; border-radius:10px; background:var(--ink);
+    display:flex; align-items:center; justify-content:center;
+  }
+  .primary .ic{background:rgba(255,255,255,.14)}
+  .ic svg{width:20px;height:20px;stroke:#FFF;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  .t{display:flex;flex-direction:column;gap:2px;min-width:0}
+  .t b{font-size:17px;font-weight:700;letter-spacing:.01em;overflow-wrap:anywhere}
+  .t small{font-size:13px;color:var(--ink-2)}
+  .primary .t small{color:rgba(255,255,255,.75)}
+  .tags{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:6px 0 24px}
+  .tags span{
+    font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--ink-2); border:1px solid var(--line); border-radius:999px; padding:6px 12px;
+  }
+  .foot{font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--ink-3);font-weight:700;margin-top:26px}
+</style>
+</head>
+<body>
+<main class="card">
+  <h1>Kevin Malone, <span>M.D.</span></h1>
+  <div class="rule"></div>
+  <div class="caps">Emergency Medicine &nbsp;·&nbsp; Clinical Informatics</div>
+
+  <div class="actions">
+    <a class="row primary" href="kevin-malone.vcf" download="Kevin Malone MD.vcf">
+      <span class="ic"><svg viewBox="0 0 24 24"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M4 19h16"/></svg></span>
+      <span class="t"><b>Save to Contacts</b><small>Adds me to your phone in one tap</small></span>
+    </a>
+    <a class="row" href="tel:+13374229085">
+      <span class="ic"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></span>
+      <span class="t"><b>(337) 422-9085</b><small>Tap to call</small></span>
+    </a>
+    <a class="row" href="sms:+13374229085">
+      <span class="ic"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H8l-4 4z"/><path d="M8 9h8M8 12h5"/></svg></span>
+      <span class="t"><b>Send a Text</b><small>Fastest way to reach me</small></span>
+    </a>
+    <a class="row" href="mailto:contact@kevinmalone.org">
+      <span class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+      <span class="t"><b>contact@kevinmalone.org</b><small>Email me</small></span>
+    </a>
+    <a class="row" href="https://kevinmalone.org">
+      <span class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></span>
+      <span class="t"><b>kevinmalone.org</b><small>Work, writing, and projects</small></span>
+    </a>
+  </div>
+
+  <div class="tags">
+    <span>SQL · Python · Power BI</span>
+    <span>Epic · Cosmos · Caboodle</span>
+    <span>Applied AI</span>
+    <span>Clinical Ethics</span>
+    <span>Medical Devices</span>
+    <span>RN to MD</span>
+  </div>
+
+  <div class="foot">Temple, Texas</div>
+</main>
+</body>
+</html>
